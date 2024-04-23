@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Double Linked List UI</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+    <h2>Menadżer listy dwukierunkowej</h2>
+    
+    <input type="number" id="inputValue" placeholder="Wpisz wartość">
+    <button onclick="addToList()">Dodaj na koniec</button>
+    <button onclick="addToBeginning()">Dodaj na początek</button>
+    <button onclick="removeFromList()">Usuń</button>
+    <button onclick="printList()">Wydrukuj listę</button>
+    <button onclick="printReverseList()">Wydrukuj listę odwrotnie</button>
+    <button onclick="searchInList()">Szukaj</button>
+    
+    <p><strong>Wynik listy:</strong></p>
+    <pre id="listOutput"></pre>
+</div>
+    
+    <script src="list.js"></script>
+</body>
+</html>
