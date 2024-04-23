@@ -83,7 +83,7 @@ while (current !== null) {
     current = current.next;
     index++;
 }
-return -1; // Value not found
+return -1; // Value 
 }
 }
 
